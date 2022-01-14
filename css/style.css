@@ -4,8 +4,9 @@ body {
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
+/* utilities start */
 section {
-    padding: 2rem 10%;
+    padding: 3rem 10%;
 }
 a {
     text-decoration: none;
@@ -28,8 +29,17 @@ a {
     border: 1px solid #0EB582;
     transition: .3s;
 }
+.section-title {
+    text-align: center;
+    color: #555353;
+    font-size: 2.3rem;
+    margin: 0 0 30px;
+}
+/* utilities end */
 
-
+.mb {
+    margin-bottom: 1500px;
+}
 
 
 
@@ -59,7 +69,6 @@ header {
 .logo i {
     color: #0EB582;
 }
-
 
 nav ul {
     list-style: none;
@@ -92,7 +101,7 @@ nav ul li i {
 }
 .content {
     color: #fff;
-    padding: 7rem 0;
+    padding: 6rem 0;
     text-align: left;
 }
 .content h3 {
@@ -106,6 +115,43 @@ nav ul li i {
     padding: 0.5rem 0;
 }
 /* home section start */
+
+
+/* subjects section start */
+.all-subjects {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-column-gap: 20px;
+}
+.subject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0eb5830e;
+    color: #4e4e4e;
+    border: 1px solid #0EB582;
+    padding: 2.2rem 0.7rem;
+}
+.subject img {
+    width: 70%;
+}
+.subject h3 {
+    font-size: 18px;
+    margin: 1rem 0 10px;
+}
+.subject p {
+    font-size: 14px;
+    margin: 0;
+}
+/* subjects section end */
+
+
+/* courses section start */
+/* courses section end */
+
+
+/* footer section start */
+/* footer section end */
 
 
 
