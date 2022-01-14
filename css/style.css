@@ -183,6 +183,7 @@ footer hr {
 }
 .footer-info p {
     width: 250px;
+    line-height: 2;
 }
 .footer-info:first-child a.fab {
     display: inline-block;
@@ -204,12 +205,13 @@ footer hr {
 .footer-info:not(:first-child) a:hover {
     color: #0EB582;
     text-decoration: underline;
+    transition: .2s;
 }
 .footer-info input[type="email"] {
     border: 1px solid #0EB582;
     outline: none;
     padding: 12px 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     font-size: 1.2rem;
 }
 .footer-info input[type="email"]:focus {
@@ -232,7 +234,7 @@ footer hr {
     text-align: center;
 }
 .cradit p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .cradit span {
     color: #0EB582;
