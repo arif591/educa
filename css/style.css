@@ -4,6 +4,7 @@ body {
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
+
 /* utilities start */
 section {
     padding: 3rem 10%;
@@ -37,11 +38,6 @@ a {
 }
 /* utilities end */
 
-.mb {
-    margin-bottom: 1500px;
-}
-
-
 
 /* header section start */
 header {
@@ -56,7 +52,6 @@ header {
     z-index: 1000;
     box-shadow: 0 2px 16px rgba(128, 128, 128, 0.493);
 }
-
 .logo {
     display: inline-block;
     font-size: 25px;
@@ -147,20 +142,99 @@ nav ul li i {
 
 
 /* courses section start */
+.all-courses {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+}
+.course {
+    background-color: #0eb5830e;
+}
+.course img {
+    width: 100%;
+}
+.course h3 {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #4e4e4e;
+}
 /* courses section end */
 
 
 /* footer section start */
+footer {
+    padding: 3rem 10% 1rem;
+    background-color: #0eb5830e;
+    color: #444;
+}
+.footer-column {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+}
+footer hr {
+    background-color: #0EB582;
+    border-top: 1px solid #0ada9b;
+    margin: 1.5rem 0;
+}
+.footer-info h3 {
+    margin: 0 0 16px;
+    font-size: 1.5rem;
+}
+.footer-info p {
+    width: 250px;
+}
+.footer-info:first-child a.fab {
+    display: inline-block;
+    padding: 15px;
+    background-color: #0EB582;
+    color: #fff;
+    font-size: 18px;
+}
+.footer-info:first-child a.fab:hover {
+    background-color: #141414cb;
+    transition: .3s;
+}
+.footer-info:not(:first-child) a {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 1.5rem;
+    color: #696969;
+}
+.footer-info:not(:first-child) a:hover {
+    color: #0EB582;
+    text-decoration: underline;
+}
+.footer-info input[type="email"] {
+    border: 1px solid #0EB582;
+    outline: none;
+    padding: 12px 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.footer-info input[type="email"]:focus {
+    background-color: #0EB582;
+    color: #fff;
+}
+.footer-info input[type="submit"] {
+    padding:  12px 2rem;
+    border: 1px solid #0EB582;
+    background-color: #0eb5830e;
+    color: #0EB582;
+    font-size: 1.2rem;
+}
+.footer-info input[type="submit"]:hover {
+    background-color: #0EB582;
+    color: #fff;
+    transition: .3s;
+}
+.cradit {
+    text-align: center;
+}
+.cradit p {
+    font-size: 1.5rem;
+}
+.cradit span {
+    color: #0EB582;
+}
 /* footer section end */
-
-
-
-
-
-
-
-
-
-
-
-
